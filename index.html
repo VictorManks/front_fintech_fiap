@@ -12,18 +12,15 @@
 </head>
 
 <body class="body title">
-  <header class="header container-fluid">
+  <header class="d-flex justify-content-between header align-items-center">
     <div>
-      <h1 class="title text-center">Home</h1>
-    </div>
-    <div>
-      <nav class="navbar">
+      <nav class="navbar mb-0">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel">
             <!-- <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
@@ -61,20 +58,70 @@
         </div>
       </nav>
     </div>
-    <div>
-
+    <div class="align-items-center">
+      <h1 class="title text-center pt-2 pb-2 mb-0">Home</h1>
+    </div>
+    <div class="">
+      <nav class="navbar mb-0">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+            aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2"
+            aria-labelledby="offcanvasNavbarLabel">
+            <!-- <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div> -->
+          </div>
+        </div>
+      </nav>
     </div>
   </header>
 
+  <!-- d-flex align-items-center justify-content-between  -->
+  <div class="container-sm d-flex flex-column align-items-center"> 
+    <div style="max-width: 250px;">
+      <img src="./assets/icons/money-bag.svg" alt="money-bag">
+    </div>
+    <div style="max-width: 250px;">
+      <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit aperiam inventore earum tempore!
+        Consequatur voluptate iure reiciendis laboriosam, qui dolores esse doloribus temporibus cum. Amet animi, quod ullam
+        doloribus, nesciunt quae totam, et numquam labore pariatur repudiandae fugiat? In dolorum modi culpa, unde cumque
+        neque. Cumque suscipit rem modi in.<3 </p>   
+    </div>
+  </div>
 
-
-  <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit aperiam inventore earum tempore!
-    Consequatur voluptate iure reiciendis laboriosam, qui dolores esse doloribus temporibus cum. Amet animi, quod ullam
-    doloribus, nesciunt quae totam, et numquam labore pariatur repudiandae fugiat? In dolorum modi culpa, unde cumque
-    neque. Cumque suscipit rem modi in.<3 </p>
-
-      <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> -->
-      <script src="./assets/js/bootstrap.bundle.js"></script>
+  <script src="./assets/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
