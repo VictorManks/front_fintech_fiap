@@ -18,42 +18,15 @@
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <img src="assets/icons/profile-circle.svg" alt="icone de pessoa em circulo">
           </button>
           <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel">
-            <!-- <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Perfil</h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              
             </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </div> -->
           </div>
         </div>
       </nav>
@@ -66,7 +39,7 @@
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
             aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <img src="assets/icons/menu-icon.svg" alt="icone de sanduiche representando menu">
           </button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2"
             aria-labelledby="offcanvasNavbarLabel">
@@ -110,14 +83,22 @@
 
   <!-- d-flex align-items-center justify-content-between  -->
   <div class="container-sm d-flex flex-column align-items-center"> 
-    <div style="max-width: 250px;">
-      <img src="./assets/icons/money-bag.svg" alt="money-bag">
+    <div>
+       <img src="./assets/icons/money-bag.svg" alt="money-bag" class="media-breakpoint-down(sm) text_body my-5">   <!--style="max-width: 250px;" -->
     </div>
-    <div style="max-width: 250px;">
-      <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit aperiam inventore earum tempore!
-        Consequatur voluptate iure reiciendis laboriosam, qui dolores esse doloribus temporibus cum. Amet animi, quod ullam
-        doloribus, nesciunt quae totam, et numquam labore pariatur repudiandae fugiat? In dolorum modi culpa, unde cumque
-        neque. Cumque suscipit rem modi in.<3 </p>   
+    <div class="text-center">
+      <p class="lead text_body display-4">Precisando de dinheiro?</p> 
+      <p class="lead text_body display-4">Clique em <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <img src="assets/icons/profile-circle.svg" alt="icone de pessoa em circulo">
+      </button> para fazer login,</p> 
+      <p class="lead text_body display-4">Depois clique em:           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+        aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+        <img src="assets/icons/menu-icon.svg" alt="icone de sanduiche representando menu">
+      </button></p>   
+      <p class="lead text_body display-4">Para procurar um empréstimo!</p>     
+        
+      
     </div>
   </div>
 

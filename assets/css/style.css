@@ -6,7 +6,10 @@ header {
     align-items: center;  */
 }
 
-
+.text_body {
+    width: 100%;
+    max-width: 500px;
+}
 
 /* #navbar-toggler_div {
     display: flex;
